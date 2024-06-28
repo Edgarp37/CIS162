@@ -20,8 +20,8 @@ h1{
 nav ul{
     font-size: 18px;
     color: black;
-    margin-left: 1000px;
-    line-height: 1.6em;
+    width: 50%;
+    margin-left: auto;
 
 }
 
