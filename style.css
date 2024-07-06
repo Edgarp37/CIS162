@@ -1,43 +1,120 @@
 body{
-    background-color: slategray;
+    background-color: lightsteelblue;
     color: lightblue;
-    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    width: 95%;
+    max-width: 960px;
+    min-width: 1400px;
+    box-sizing: border-box;
+    padding: 0;
 }
 
 header{
-    background-color: lightslategray;
-    font-family: "Arial Black", sans-serif;
-    width: 100%;
+    background-color: steelblue;
+    text-align: center;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 h1{
-    background-color: steelblue;
-    font-size: 45px;
-    width: 100%;
-    margin: auto;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
 }
 
 nav ul{
-    font-size: 18px;
-    color: black;
-    width: 50%;
-    margin-left: auto;
-
+    background-color: midnightblue;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 nav ul li{
-    display: inline-block;
+    float: left;
+    box-sizing: border-box;
 }
 
-section{
-    background-color: lightslategray;
-    font-size: 20px;
-    width: 65%;
-    margin: auto;
+nav ul a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 18px;
+    margin-right: 20px;
+    font-size: 15px;
+    box-sizing: border-box;
 }
 
-footer{
-    font-size: 12px;
-    margin-top: 800px;
+nav ul a:hover{
+    background-color: powderblue;
+    box-sizing: border-box;
 }
 
+section#leftColumn{
+    clear: left;
+    float: left;
+    width: 60%;
+    box-sizing: border-box;
+    background-color: steelblue;
+    padding: 30px;
+    margin: 0;
+}
+
+section#leftColumn p {
+    font-size: 25px;
+}
+
+section#rightColumn{
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    background-color: skyblue;
+    padding: 30px;
+    margin: 0;
+    color: white;
+}
+
+#rightColumn a {
+    color: white;
+}
+
+#rightColumn a:hover {
+    color: blue;
+}
+
+body::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section {
+    text-align: center;
+}
+
+p{
+    margin: 0;
+}
+
+footer {
+    clear: both;
+    background-color: darkblue;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+}
+
+footer a {
+    color: lightblue;
+}
+
+footer a:hover{
+    color: white;
+}
